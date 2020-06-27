@@ -44,12 +44,12 @@ class Database extends \CodeIgniter\Database\Config
 	public $default = [
 		//'DSN' => 'pgsql:host=localhost;dbname=certificados',
 		'DSN' => '',
-		'hostname' => 'localhost',
-		'username'=> 'postgres',
-		'password' => 'postgres',
-		'database' => 'certificados',
+		'hostname' => 'postgresql-10659-0.cloudclusters.net',
+		'username'=> 'Roberth Ochoa',
+		'password' => 'Rsdk1998',
+		'database' => 'certificadosblg',
 		'DBDriver' => 'Postgre',
-		'port'     => 5432,
+		'port'     => 10659,
 	];
 	/*public $default = array(
 		'DSN' => 'pgsql:host=localhost;dbname=certificados',
