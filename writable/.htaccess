@@ -4,11 +4,3 @@
 #<IfModule !authz_core_module>
  #   Deny from all
 #</IfModule>
-
-<Directory />
-#Options FollowSymLinks
-Options Indexes FollowSymLinks Includes ExecCGI
-AllowOverride All
-Order deny,allow
-Allow from all
-</Directory>
